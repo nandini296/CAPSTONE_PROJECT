@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LandingPage</title>
+  <link rel="stylesheet" href="Index.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <img src="logo.jpg" alt="">
+      </div>
+
+      <nav>
+        <div class="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+        <ul class="links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <!-- <li><a href="#">Services</a></li> -->
+          <li><div class="dropdown">
+            <button class="dropbtn">Services
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="service_1.html">By concern</a>
+              <a href="service_2.html">Acc to</a>
+              <a href="service_3.html">nhi pata </a>
+            </div>
+          </div>  </li>
+          <li><a href="#">Procedures</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="main">
+      <div class="content">
+        <h5 data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-duration="1500">Treat Your Skin</h5>
+        <h1 data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1500">Healthy Skin Is Always In Style</h1>
+        <h4 data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500">We are ready for your skin care help</h4>
+      </div>
+    </section>
+  </div>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+  <script>
+    AOS.init({
+      //   offset:400,
+      duration: 1000
+    });
+  </script>
+  <script src="Index.js"></script>
+</body>
+
+</html>
